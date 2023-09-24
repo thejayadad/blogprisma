@@ -13,7 +13,8 @@ const categories = [
 
 const CategoryList = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-12">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-12"
+    >
       {categories.map((category, index) => (
         <Link
           href={`#${category.name}`}
