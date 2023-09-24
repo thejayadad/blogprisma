@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10 mt-12 ">
       <div className="mx-auto flex flex-wrap justify-between items-center">
-        <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+        <div className="w-full md:w-1/4 lg:w-1/4 px-4 mb-8">
           <div className="flex items-center mb-4">
          <div className='flex items-center'>
         <h1 className="text-3xl font-extrabold text-blue-500">Blog</h1>
@@ -26,7 +26,7 @@ const Footer = () => {
             <FaYoutube className="text-white" />
           </div>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+        <div className="w-full md:w-1/4 lg:w-1/4 px-4 mb-8">
           <div className="mb-4">
             <h2 className="text-xl font-bold">Links</h2>
           </div>
